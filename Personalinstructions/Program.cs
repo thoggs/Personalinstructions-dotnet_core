@@ -1,4 +1,6 @@
 ﻿using System;
+using Personalinstructions.ContentContext;
+using Personalinstructions.ContentContext.Enums;
 
 namespace Personalinstructions
 {
@@ -6,7 +8,7 @@ namespace Personalinstructions
     {
         private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var course = new Course {Level = EContentLevel.Beginner};
         }
     }
 }
