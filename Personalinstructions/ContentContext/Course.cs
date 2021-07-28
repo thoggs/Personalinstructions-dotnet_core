@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using Personalinstructions.ContentContext.Enums;
 
 namespace Personalinstructions.ContentContext
 {
     public class Course : Content
     {
-        public Course()
+        public Course(string title, string url) : base(title, url)
         {
             Modules = new List<Module>();
         }

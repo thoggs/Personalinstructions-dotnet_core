@@ -2,15 +2,17 @@ using System;
 
 namespace Personalinstructions.ContentContext
 {
-    public abstract class Content
+    public class Content
     {
-        protected Content()
+        protected Content(string title, string url)
         {
             Id = Guid.NewGuid();
+            Title = title;
+            Url = url;
         }
 
-        private Guid Id { get; set; }
-        public string Title { get; set; }
-        public string Url { get; set; }
+        public Guid Id { get; }
+        public string Title { get; }
+        public string Url { get; }
     }
 }
