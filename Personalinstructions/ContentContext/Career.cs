@@ -9,7 +9,7 @@ namespace Personalinstructions.ContentContext
             Items = new List<CareerItem>();
         }
 
-        public IList<CareerItem> Items { get; set; }
+        public IList<CareerItem> Items { get; }
 
         public int TotalCourses => Items.Count;
     }
