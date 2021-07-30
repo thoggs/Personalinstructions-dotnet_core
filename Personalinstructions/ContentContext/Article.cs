@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Personalinstructions.NotificationContext;
+
 namespace Personalinstructions.ContentContext
 {
     public class Article : Content

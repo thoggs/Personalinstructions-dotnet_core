@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Personalinstructions.ContentContext
 {
-    public abstract class Module
+    public abstract class Module : Base
     {
         protected Module()
         {
