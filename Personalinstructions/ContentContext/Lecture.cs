@@ -1,4 +1,5 @@
 using Personalinstructions.ContentContext.Enums;
+using Personalinstructions.SharedContext;
 
 namespace Personalinstructions.ContentContext
 {

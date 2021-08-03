@@ -1,7 +1,7 @@
 using System;
 using Personalinstructions.NotificationContext;
 
-namespace Personalinstructions.ContentContext
+namespace Personalinstructions.SharedContext
 {
     public abstract class Base : Notifiable
     {
