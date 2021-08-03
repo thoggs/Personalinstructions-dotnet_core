@@ -1,5 +1,6 @@
 using System;
 using Personalinstructions.NotificationContext;
+using Personalinstructions.SharedContext;
 
 namespace Personalinstructions.ContentContext
 {
